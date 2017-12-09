@@ -1,5 +1,7 @@
 #!/bin/sh
-read a b c
+a=$1
+b=$2
+c=$3
 if [ $a -gt $b -a $a -gt $c ]
 then
 echo $a
