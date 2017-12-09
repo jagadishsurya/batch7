@@ -1,7 +1,7 @@
 #!/bin/sh
 n=$1
 sum =0
-for i in `sum 1 $n` 
+for i in $n 
 do
 sum =`expr $sum + $i`
 done
