@@ -1,8 +1,8 @@
 #1/bin/sh
 echo "enter the width and height of rectangle:"
-read width
-read height
-echo "area of rectangle is :"
-expr $width \* $height
+width=$1
+height=$2
+aoc=`"expr $width \* $height"`
+echo "area of rectangle is :$aoc"
 
 
