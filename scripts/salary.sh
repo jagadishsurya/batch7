@@ -1,7 +1,7 @@
 #!/bin/sh
 echo "Employe Salary Detail"
 echo "Enter the basic salary:"
-read basic
+basic=$1
     dp=`expr $basic \* 50`
     dpvalue=`expr $dp / 100`
 echo "The value of dp is :$dpvalue"
